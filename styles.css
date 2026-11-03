@@ -59,7 +59,7 @@ a { color: inherit; text-decoration: none; }
 }
 .pills a {
   border: 1.5px solid var(--red);
-  color: var(--red);
+  color: #e10014;
   border-radius: 99px;
   padding: 12px 22px;
   font-weight: 600;
