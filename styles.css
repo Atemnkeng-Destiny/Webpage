@@ -81,7 +81,7 @@ a { color: inherit; text-decoration: none; }
   max-width: 1192px;
   min-height: 460px;
   padding: 48px 44px;
-  background: var(--red);
+  background: #e10014;
   color: #fff;
   border-radius: 36px;
   
@@ -348,3 +348,16 @@ footer {
 /* Hero button text matches the hero red */
 .hero .btn { color: var(--red); }
 .hero .btn:hover { color: var(--yellow); }
+/* Hero image */
+/* Hero image */
+.bullseye {
+  position: absolute;
+  right: 10px;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 520px;
+  height: 520px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
